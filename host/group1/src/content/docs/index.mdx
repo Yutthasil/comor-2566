@@ -1,0 +1,65 @@
+---
+title: Welcome to Host-1
+description: Host-1 Comorg
+template: splash
+hero:
+  tagline: Host-1
+  image:
+    file: ../../assets/Sumet_nobg.png
+  actions:
+    - text: อ่านเพิ่มเติม
+      link: ./hostconfiguration/readme/
+      icon: right-arrow
+      variant: primary
+---
+import { Card, CardGrid,LinkCard } from '@astrojs/starlight/components';
+
+
+# Host-1
+<Card title="HOST-1" >
+    Computer Organization and Operating System 2/2566 
+</Card>
+
+
+# Intro
+
+<CardGrid stagger>
+  <Card title="Host คืออะไร ?" icon="star">
+    Host คือ เครื่องคอมพิวเตอร์หรืออุปกรณ์ที่ใช้ในการ Host บริการหรือแอปพลิเคชันต่างๆในระบบเครือข่ายเซิร์ฟเวอร์หรือเครื่องคอมพิวเตอร์ที่ใช้เก็บข้อมูลหรือแบ่งปันทรัพยากรต่างๆในเครือข่ายโดยโปรแกรมหรือบริการที่ทำงานบนเครื่องคอมพิวเตอร์นั้นๆจะมีการเรียกใช้งานผ่านทาง Host
+  </Card>
+  <Card title="I/O มีไว้ทำไม ?" icon="right-arrow">
+    ทำการควบคุม และ timing และ สื่อสารกับ CPU และ อุปกรณ์
+  </Card>
+  <Card title="Kernel คือ อะไร ?" icon="right-arrow">
+    Kernel คือ ระบบปฏิบัติการที่มีหน้าที่จัดการทรัพยากรของระบบและจัดการกับการประมวลผล โดยจะเป็นตัวกลางที่มีหน้าที่ติดต่อระหว่าง Software กับ Hardware
+  </Card>
+  <Card title="Memory คืออะไร ?" icon="right-arrow">
+    Memory คือ อุปกรณ์เก็บสถานะของข้อมูลและชุดคำสั่ง เพื่อการประมวลผลของคอมพิวเตอร์ หน่วยความจำสามารถแบ่งออกได้เป็น 2 ประเภท คือหน่วยความจำถาวรกับหน่วยความจำชั่วคราว 
+  </Card>
+</CardGrid>
+<LinkCard
+  title="อ่านเพิ่มเติม"
+  href="./hostconfiguration/readme/"
+/>
+
+# About Project
+<LinkCard
+  title="Web site"
+  href="https://earth123456789.github.io/Host-1/"
+/>
+<LinkCard
+  title="Github"
+  href="https://github.com/Earth123456789/Host-3/tree/main/src/content/docs"
+/>
+
+# References
+<LinkCard
+  title="View"
+  href="https://earth123456789.github.io/Host-1/reference/example/"
+/>
+<LinkCard
+  title="View"
+  href="https://github.com/Earth123456789/Host-1/blob/main/src/content/docs/reference/example.md"
+/>
+
+
